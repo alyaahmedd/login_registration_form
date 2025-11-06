@@ -1,0 +1,123 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: linear-gradient(to right, #c9899200, #c98992);
+}
+
+.container{
+    margin: 0 15px;
+}
+
+
+.form-box{
+    width: 100%;
+    max-width: 450px;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    background: white;
+    display: none;
+}
+
+.form-box.active{
+    display: block;
+}
+
+h2{
+    font-size: 34px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+input,select{
+    width: 100%;
+    padding: 12px;
+    background: rgba(176, 196, 222, 0.422);
+    border-radius: 6px;
+    border: none;
+    outline: none;
+    font-size: 16px;
+    color: rgb(49, 49, 49);
+    margin-bottom: 20px;
+}
+
+
+#role:invalid { color: #707070; }  
+#role { color: #000; }         
+ 
+
+
+button{
+    width: 100%;
+    padding: 12px;
+    background: #c98992d5;
+    border-radius: 6px;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom: 20px;
+    transition: 0.5s;
+}
+
+button:hover{
+    background: #c98992;
+}
+
+p{
+    font-size: 14.5px;
+    text-align: center;
+    margin-bottom: 10px;
+    color: rgba(0, 0, 0, 0.852);
+}
+
+p a{
+    color:#c98992da;
+    text-decoration: none;
+}
+
+p a:hover{
+    text-decoration: underline;
+}
+
+
+.error-message{
+    padding: 12px;
+    border-radius: 6px;
+    font-size: 16px;
+    color: red;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+
+h1{
+    font-size: 50px;
+}
+
+span{
+    color: #c98992da;
+}
+
+.box p{
+    font-size: 22px;
+}
+
+
+.box button{
+    display: block;
+    width: 300px;
+    margin: 0 auto;
+    color: white;
+    background-color: #c98992;
+}
